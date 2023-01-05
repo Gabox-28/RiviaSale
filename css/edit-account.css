@@ -1,0 +1,5 @@
+.value{
+    color: var(--text-subtitle);
+    font-size: var(--md);
+    margin: 8px 0 32px 0;
+}

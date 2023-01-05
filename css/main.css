@@ -9,16 +9,24 @@
     --md: 16px;
     --lg: 18px;
 
-    --dark-bg: #121f3d;
+    --dark-bg: #141414;
     --dark-blue: #03091e;
     --blue-acent: #33b1ff;
     --text-subtitle: #9aa0a6;
-    --dark-input-field: #03091e;
+    --dark-input-field: #2a2a2a;
     --dark-text-input-field: #637b9d;
 }
 
 body{
     margin: 0;
+    font-family: 'QuickSand', sans-serif;
+}
+
+input{
+    font-family: 'QuickSand', sans-serif;
+}
+
+button{
     font-family: 'QuickSand', sans-serif;
 }
 
@@ -34,7 +42,7 @@ body{
     display: grid;
     grid-template-rows: auto 1fr auto;
     width: 300px;
-    justify-items: center;
+
 }
 
 .logo{
@@ -47,7 +55,7 @@ body{
 .title{
     font-size: var(--lg);
     margin-bottom: 12px;
-    text-align: center;
+
     color: var(--blue-acent);
 }
 
@@ -60,11 +68,49 @@ body{
     text-align: center;
 }
 
+.label{
+    font-size: var(--sm);
+    font-weight: bold;
+    margin-bottom: 8px;
+    color: var(--white);
+}
+
+.input{
+    background-color: var(--dark-input-field);
+    border: none;
+    border-radius: 8px;
+    height: 32px;
+    font-size: var(--md);
+    padding: 4px 4px 4px 8px;
+    margin-bottom: 12px;
+    color: var(--dark-text-input-field);
+    outline: none;
+}
+
+.form{
+    display: flex;
+    width: 300px;
+    flex-direction: column;
+}
+
+
 .primary-button{
     background-color: var(--blue-acent);
     border-radius: 8px;
     border: none;
     color: var(--dark-blue);
+    width: 100%;
+    cursor: pointer;
+    font-size: var(--md);
+    font-weight: bold;
+    height: 50px;
+}
+
+.secondary-button{
+    background-color: var(--dark-bg);
+    border-radius: 8px;
+    border: 1px solid var(--blue-acent);
+    color: var(--blue-acent);
     width: 100%;
     cursor: pointer;
     font-size: var(--md);

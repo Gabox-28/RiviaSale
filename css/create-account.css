@@ -1,0 +1,24 @@
+.input-name, .input-email, .input-password{
+    margin-bottom: 22px;
+}
+
+.title{
+    text-align: start;
+    margin-bottom: 28px;
+}
+
+.form div{
+    display: flex;
+    flex-direction: column;
+}
+
+@media(max-width: 640px){
+    .form-container{
+        height: 100%;
+    }
+
+    .form{
+        height: 100%;
+        justify-content: space-between;
+    }
+}

@@ -1,0 +1,16 @@
+.form a{
+    color: var(--blue-acent);
+    font-size: var(--sm);
+    text-align: center;
+    text-decoration: none;
+    margin-bottom: 52px;
+}
+
+@media (max-width: 640px) {
+    .secondary-button{
+        position: absolute;
+        bottom: 0;
+        width: 300px;
+        margin-bottom: 40px;
+    }
+}
