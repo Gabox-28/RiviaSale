@@ -1,6 +1,6 @@
 :root{
     --black: #000000;
-    --white: #ffffff;
+    --white: #d7dfdd;
     --very-light-pink: #C7c7c7;
     --text-input-field: #f7f7f7;
     --dark: #232830;
@@ -20,6 +20,8 @@
 body{
     margin: 0;
     font-family: 'QuickSand', sans-serif;
+    background-color: var(--dark-bg);
+    color: var(--white);
 }
 
 input{
@@ -35,7 +37,6 @@ button{
     height: 100vh;
     display: grid;
     place-items: center;
-    background-color: var(--dark-bg);
 }
 
 .form-container{

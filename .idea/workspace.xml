@@ -5,15 +5,18 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="33484921-9a77-48d4-a085-6fca0e010013" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/create-account.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/css/create-account.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/css/edit-account.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/css/login.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/edit-account.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/login.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/css/desktop-menu.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/css/index.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/css/mobile-menu.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/css/my-order.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/css/my-orders.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/desktop-menu.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/index.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/mobile-menu.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/my-order.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/my-orders.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/css/main.css" beforeDir="false" afterPath="$PROJECT_DIR$/css/main.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/css/new-password.css" beforeDir="false" afterPath="$PROJECT_DIR$/css/new-password.css" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -58,6 +61,7 @@
 }</component>
   <component name="RecentsManager">
     <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\Users\Gabox\WebstormProjects\Rivia Sale\css" />
       <recent name="C:\Users\Gabox\WebstormProjects\Rivia Sale" />
     </key>
   </component>
@@ -71,7 +75,7 @@
       <updated>1672819306456</updated>
       <workItem from="1672819307542" duration="537000" />
       <workItem from="1672820563561" duration="6009000" />
-      <workItem from="1672900935412" duration="3499000" />
+      <workItem from="1672900935412" duration="12470000" />
     </task>
     <servers />
   </component>
