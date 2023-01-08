@@ -1,0 +1,23 @@
+.shopping-cart{
+    grid-template-columns: auto 1fr auto auto;
+}
+
+.title{
+    font-size: var(--lg);
+    font-weight: bold;
+    margin: 14px 0 14px 0;
+}
+
+.title-container{
+    display: flex;
+    align-items: center;
+}
+
+.title-container img{
+    transform: rotate(180deg);
+    margin-right: 14px;
+}
+
+.product-detail{
+    box-sizing: border-box;
+}
