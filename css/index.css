@@ -1,3 +1,13 @@
+.logo-main{
+    display: flex;
+    align-items: center;
+}
+
+.logo-main img{
+    width: 140px;
+    height: 30px;
+}
+
 .cards-container{
     display: grid;
     grid-template-columns: repeat(auto-fill, 240px);
@@ -68,7 +78,6 @@ nav{
     display: flex;
     justify-content: space-between;
     padding: 0 24px;
-    border-bottom: 1px solid var(--text-subtitle);
     margin-bottom: 20px;
 }
 
@@ -78,6 +87,7 @@ nav{
 
 .logo{
     width: 100px;
+    height: auto;
 }
 
 .navbar-left ul,
@@ -110,7 +120,7 @@ nav{
 
 .navbar-left ul li a:hover,
 .navbar-right ul li a:hover{
-    border: 1px solid var(--blue-acent);
+    background-color: #3b4252;
     color: var(--blue-acent);
     border-radius: 8px;
 }
@@ -123,6 +133,10 @@ nav{
 
 .navbar-shopping-cart{
     position: relative;
+}
+
+.navbar-shopping-cart img{
+    width: 35px;
 }
 
 .navbar-shopping-cart div{

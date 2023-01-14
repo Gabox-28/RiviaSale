@@ -5,7 +5,12 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="33484921-9a77-48d4-a085-6fca0e010013" name="Changes" comment="">
+      <change afterPath="$PROJECT_DIR$/icons/add-cart.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/icons/cart-shopping.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/logos/RiviaSale.png" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/css/index.css" beforeDir="false" afterPath="$PROJECT_DIR$/css/index.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/css/main.css" beforeDir="false" afterPath="$PROJECT_DIR$/css/main.css" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/index.html" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -55,6 +60,8 @@
 }</component>
   <component name="RecentsManager">
     <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\Users\Gabox\WebstormProjects\Rivia Sale\icons" />
+      <recent name="C:\Users\Gabox\WebstormProjects\Rivia Sale\logos" />
       <recent name="C:\Users\Gabox\WebstormProjects\Rivia Sale" />
       <recent name="C:\Users\Gabox\WebstormProjects\Rivia Sale\css" />
     </key>
@@ -71,7 +78,8 @@
       <workItem from="1672820563561" duration="6009000" />
       <workItem from="1672900935412" duration="12470000" />
       <workItem from="1673157277398" duration="5911000" />
-      <workItem from="1673163912082" duration="18000" />
+      <workItem from="1673163912082" duration="224000" />
+      <workItem from="1673659062985" duration="3170000" />
     </task>
     <servers />
   </component>
