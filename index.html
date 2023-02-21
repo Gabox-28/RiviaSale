@@ -2,7 +2,9 @@
 <html lang="en">
 <head>
     <meta charset="UTF-8">
-    <title>Rivia Sale</title>
+    <title>Rivia Sale | Gabriel Mayorga</title>
+
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
 
   <link rel="stylesheet" href="./css/main.css">
   <link rel="stylesheet" href="./css/index.css">
@@ -35,7 +37,86 @@
         </li>
       </ul>
     </div>
+
+    <div class="desktop-menu inactive">
+      <ul>
+        <li><a href="/" class="title">My orders</a></li>
+        <li><a href="/" class="title">My account</a></li>
+        <li><a href="/" class="title">Sing out</a></li>
+      </ul>
+    </div>
+
+    <div class="mobile-menu inactive">
+      <ul class="categories">
+        <li><a href="/">CATEGORIES</a></li>
+        <li><a href="/">All</a></li>
+        <li><a href="/">Clothes</a></li>
+        <li><a href="/">Electronics</a></li>
+        <li><a href="/">Furnitures</a></li>
+        <li><a href="/">Toys</a></li>
+        <li><a href="/">Others</a></li>
+      </ul>
+
+      <ul>
+        <li><a href="/">My orders</a></li>
+        <li><a href="/">My account</a></li>
+      </ul>
+
+      <div class="accounts">
+        <ul>
+          <li><a href="/" class="email">gabriel@example.com</a></li>
+          <li><a href="/" class="sign-out">Sign out</a></li>
+        </ul>
+      </div>
+
+    </div>
   </nav>
+
+  <aside class="product-detail">
+    <div class="my-order-content">
+
+      <div class="title-container">
+        <img src="./icons/flechita.svg" alt="arrow">
+        <p class="title">Shopping Cart</p>
+      </div>
+
+      <div class="shopping-cart">
+        <figure>
+          <img src="https://assets.adidas.com/images/h_840,f_auto,q_auto,fl_lossy,c_fill,g_auto/09c5ea6df1bd4be6baaaac5e003e7047_9366/Forum_Low_Shoes_White_FY7756_01_standard.jpg" alt="Producto image">
+        </figure>
+        <p>Adidas Forum</p>
+        <p>$80</p>
+        <img src="./icons/icon_close.png" alt="close">
+      </div>
+
+      <div class="shopping-cart">
+        <figure>
+          <img src="https://assets.adidas.com/images/h_840,f_auto,q_auto,fl_lossy,c_fill,g_auto/09c5ea6df1bd4be6baaaac5e003e7047_9366/Forum_Low_Shoes_White_FY7756_01_standard.jpg" alt="Producto image">
+        </figure>
+        <p>Adidas Forum</p>
+        <p>$80</p>
+        <img src="./icons/icon_close.png" alt="close">
+      </div>
+
+      <div class="shopping-cart">
+        <figure>
+          <img src="https://assets.adidas.com/images/h_840,f_auto,q_auto,fl_lossy,c_fill,g_auto/09c5ea6df1bd4be6baaaac5e003e7047_9366/Forum_Low_Shoes_White_FY7756_01_standard.jpg" alt="Producto image">
+        </figure>
+        <p>Adidas Forum</p>
+        <p>$80</p>
+        <img src="./icons/icon_close.png" alt="close">
+      </div>
+
+      <div class="order">
+        <p>
+          <span>Total</span>
+        </p>
+        <p>$560.00</p>
+      </div>
+
+      <button class="primary-button">Check out</button>
+    </div>
+  </aside>
 
 
   <section class="main-container">
@@ -343,5 +424,7 @@
 
     </div>
   </section>
+
+  <script src="./main.js"></script>
 </body>
 </html>

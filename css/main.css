@@ -10,6 +10,7 @@
     --lg: 18px;
 
     --dark-bg: #2e3440;
+    --dark-lt-bg: #3b4252;
     --dark-blue: #03091e;
     --blue-acent: #33b1ff;
     --text-subtitle: #9aa0a6;
@@ -30,6 +31,10 @@ input{
 
 button{
     font-family: 'QuickSand', sans-serif;
+}
+
+.inactive{
+    display: none;
 }
 
 .login{

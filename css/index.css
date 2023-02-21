@@ -120,7 +120,7 @@ nav{
 
 .navbar-left ul li a:hover,
 .navbar-right ul li a:hover{
-    background-color: #3b4252;
+    background-color: var(--dark-lt-bg);
     color: var(--blue-acent);
     border-radius: 8px;
 }
@@ -129,6 +129,7 @@ nav{
     color: var(--text-subtitle);
     font-size: var(--sm);
     margin-right: 12px;
+    cursor: pointer;
 }
 
 .navbar-shopping-cart{
@@ -154,16 +155,204 @@ nav{
     align-items: center;
 }
 
+/* Menu en  desktop */
+
+
+.desktop-menu{
+    position: absolute;
+    top: 60px;
+    right: 65px;
+    background-color: var(--dark-bg);
+    width: 110px;
+    height: auto;
+    border: 1px solid var(--text-subtitle);
+    border-radius: 6px;
+    padding: 20px 20px 0 20px;
+}
+
+.desktop-menu ul{
+    list-style: none;
+    padding: 0;
+    margin: 0;
+}
+
+.desktop-menu ul li{
+    text-align: end;
+}
+
+.desktop-menu ul li:nth-child(1),
+.desktop-menu ul li:nth-child(2){
+    font-weight: bold;
+}
+
+.desktop-menu ul li:last-child{
+    padding-top: 20px;
+    border-top: 1px solid var(--text-subtitle);
+}
+
+.desktop-menu ul li:last-child a{
+    color: var(--blue-acent);
+    font-size: var(--sm);
+}
+
+.desktop-menu ul li a{
+    color: var(--white);
+    text-decoration: none;
+    margin-bottom: 20px;
+    display: inline-block;
+}
+
+/* Menu en mobile */
+
+.mobile-menu{
+    padding: 24px;
+    height: 100%;
+    position: absolute;
+    top: 60px;
+    left: 0;
+    background-color: var(--dark-bg);
+}
+
+.mobile-menu a{
+    text-decoration: none;
+    color: var(--white);
+    font-weight: bold;
+}
+
+.mobile-menu ul{
+    padding: 0;
+    margin: 24px 0 0;
+    list-style: none;
+}
+
+.categories{
+    border-bottom: 1px solid var(--text-subtitle);
+}
+
+.mobile-menu ul li{
+    margin-bottom: 24px;
+}
+
+.mobile-menu .email{
+    font-size: var(--sm);
+    font-weight: 300;
+}
+
+.mobile-menu .sign-out{
+    color: var(--blue-acent);
+    font-size: var(--sm);
+}
+
+.submenus{
+    display: flex;
+    height: 100%;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+.accounts{
+    position: absolute;
+    bottom: 0;
+    margin-bottom: 28px;
+}
+
+/* Product detail y carrito */
+
+.product-detail {
+    background-color: var(--dark-bg);
+    width: 360px;
+    padding: 0 24px 30px;
+    box-sizing: border-box;
+    position: absolute;
+    right: 0;
+    border-bottom-left-radius: 12px;
+    border-bottom-right-radius: 12px;
+}
+.title-container {
+    display: flex;
+}
+.title-container img {
+    transform: rotate(180deg);
+    margin-right: 14px;
+}
+.title {
+    font-size: var(--lg);
+    font-weight: bold;
+}
+.order {
+    display: grid;
+    grid-template-columns: auto 1fr;
+    gap: 16px;
+    align-items: center;
+    background-color: var(--dark-lt-bg);
+    margin-bottom: 24px;
+    border-radius: 8px;
+    padding: 0 24px;
+}
+.order p:nth-child(1) {
+    display: flex;
+    flex-direction: column;
+}
+.order p span:nth-child(1) {
+    font-size: var(--md);
+    font-weight: bold;
+}
+.order p:nth-child(2) {
+    text-align: end;
+    font-weight: bold;
+}
+.shopping-cart {
+    display: grid;
+    grid-template-columns: auto 1fr auto auto;
+    gap: 16px;
+    margin-bottom: 24px;
+    align-items: center;
+}
+.shopping-cart figure {
+    margin: 0;
+}
+.shopping-cart figure img {
+    width: 70px;
+    height: 70px;
+    border-radius: 20px;
+    object-fit: cover;
+}
+.shopping-cart p:nth-child(2) {
+    color: var(--very-light-pink);
+}
+.shopping-cart p:nth-child(3) {
+    font-size: var(--md);
+    font-weight: bold;
+}
+.primary-button {
+    background-color: var(--blue-acent);
+    border-radius: 8px;
+    border: none;
+    color: var(--white);
+    width: 100%;
+    cursor: pointer;
+    font-size: var(--md);
+    font-weight: bold;
+    height: 50px;
+}
+
+
 @media (max-width: 640px){
     .menu{
         display: block;
     }
 
-    .navbar-left ul {
+    .navbar-left ul, .navbar-email, .desktop-menu {
         display: none;
     }
 
-    .navbar-email{
+    .product-detail{
+        width: 100%;
+    }
+}
+
+@media (min-width: 641px){
+    .mobile-menu{
         display: none;
     }
 }

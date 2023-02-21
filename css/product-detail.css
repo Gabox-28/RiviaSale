@@ -6,7 +6,7 @@
 
 .product-detail{
     width: 360px;
-    padding-bottom: 24px;
+    padding-bottom: 500px;
     position: absolute;
     right: 0;
 }
@@ -60,7 +60,5 @@
 }
 
 @media(max-width: 640px){
-    .product-detail{
-        width: 100%;
-    }
+
 }

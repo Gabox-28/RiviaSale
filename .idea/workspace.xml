@@ -5,13 +5,18 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="33484921-9a77-48d4-a085-6fca0e010013" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/icons/add-cart.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/icons/cart-shopping.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/logos/RiviaSale.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/main.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/css/desktop-menu.css" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/css/index.css" beforeDir="false" afterPath="$PROJECT_DIR$/css/index.css" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/css/main.css" beforeDir="false" afterPath="$PROJECT_DIR$/css/main.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/css/mobile-menu.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/css/product-detail.css" beforeDir="false" afterPath="$PROJECT_DIR$/css/product-detail.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/css/shopping-cart.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/desktop-menu.html" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/index.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/mobile-menu.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/shopping-cart.html" beforeDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -24,7 +29,33 @@
         <option value="HTTP Request" />
         <option value="HTML File" />
         <option value="CSS File" />
+        <option value="JavaScript File" />
       </list>
+    </option>
+  </component>
+  <component name="GitToolBoxStore">
+    <option name="recentBranches">
+      <RecentBranches>
+        <option name="branchesForRepo">
+          <list>
+            <RecentBranchesForRepo>
+              <option name="branches">
+                <list>
+                  <RecentBranch>
+                    <option name="branchName" value="version-2" />
+                    <option name="lastUsedInstant" value="1676965030" />
+                  </RecentBranch>
+                  <RecentBranch>
+                    <option name="branchName" value="main" />
+                    <option name="lastUsedInstant" value="1676965029" />
+                  </RecentBranch>
+                </list>
+              </option>
+              <option name="repositoryRootUrl" value="file://$PROJECT_DIR$" />
+            </RecentBranchesForRepo>
+          </list>
+        </option>
+      </RecentBranches>
     </option>
   </component>
   <component name="HttpClientSelectedEnvironments">
@@ -80,6 +111,14 @@
       <workItem from="1673157277398" duration="5911000" />
       <workItem from="1673163912082" duration="224000" />
       <workItem from="1673659062985" duration="3170000" />
+      <workItem from="1673679764691" duration="385000" />
+      <workItem from="1673729097532" duration="4000" />
+      <workItem from="1673777884183" duration="9000" />
+      <workItem from="1673777917624" duration="4000" />
+      <workItem from="1673778743840" duration="42000" />
+      <workItem from="1673779503202" duration="11000" />
+      <workItem from="1674699903204" duration="746000" />
+      <workItem from="1676963314725" duration="5265000" />
     </task>
     <servers />
   </component>
