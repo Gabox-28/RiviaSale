@@ -4,7 +4,16 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="33484921-9a77-48d4-a085-6fca0e010013" name="Changes" comment="" />
+    <list default="true" id="33484921-9a77-48d4-a085-6fca0e010013" name="Changes" comment="">
+      <change afterPath="$PROJECT_DIR$/icons/add-cart-white.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/icons/icon_menu.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/css/index.css" beforeDir="false" afterPath="$PROJECT_DIR$/css/index.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/edit-account.html" beforeDir="false" afterPath="$PROJECT_DIR$/edit-account.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/email-sent.html" beforeDir="false" afterPath="$PROJECT_DIR$/email-sent.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/index.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/main.js" beforeDir="false" afterPath="$PROJECT_DIR$/main.js" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -106,7 +115,7 @@
       <workItem from="1673779503202" duration="11000" />
       <workItem from="1674699903204" duration="746000" />
       <workItem from="1676963314725" duration="5754000" />
-      <workItem from="1677051275181" duration="2465000" />
+      <workItem from="1677051275181" duration="8432000" />
     </task>
     <servers />
   </component>
